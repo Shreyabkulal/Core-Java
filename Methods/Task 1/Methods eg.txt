@@ -1,0 +1,17 @@
+Projector --> display()
+Podium  --> hold()
+Camera --> captureImage()
+Grinder --> prepareBatter()
+Satellite --> provideSignals()
+Television --> entertain()
+Dam --> storeWater()
+WindMill --> produceElectricity()
+Games --> play()
+TubeLight -->  
+Food --> 
+Plants --> 
+Medicines --> curesDeseases
+Alcohol --> gateWayToHeaven()
+Shed --> party()
+
+  public static void display

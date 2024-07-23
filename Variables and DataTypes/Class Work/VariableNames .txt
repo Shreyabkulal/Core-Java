@@ -1,0 +1,13 @@
+User / Person
+ userId
+ personName
+ contactNo
+ email
+ dob
+ address
+ isAlive
+ adhaarNo
+ pan
+ String bloodGroup = "A+";
+ age
+ String gender
