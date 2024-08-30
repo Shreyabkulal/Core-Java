@@ -1,0 +1,77 @@
+1) Polymorphism :
+---------------
+ An object which is behaving differently in given instance is class Polymorphism.
+ 
+ if there is Inheritance only the we can achieve polymorphism
+
+Two types of Polymorphism:
+*Compiletime polymorphism -> Method overloading
+*Runtime polymorphism -> Method overriding
+
+Compiletime polymorphism is achieved by method overloading , 
+here method name is same but with different parameter.
+
+Runtime polymorphism is achieved by method overriding , 
+here the method signature is same but with different implementation(different logic), 
+here above the method header we use the anotation-> @Override
+runtime polymorphism comes when the child class is not satisfied by the parent class implementation.
+
+
+2) Constructor Chaining
+------------------------
+Same name as the class name with no return type 
+always first statement will be "super" keyword.
+Two types of constructor:
+*Default constructor - with zero parameter
+*Parameterised constructor - with different parameters
+
+Every class will have its default constructor
+
+public class SavingsAccount{
+    
+	//default constructor
+   public SavingsAccount(){
+     
+   }
+   
+   //parameterised constructor
+   public SavingsAccount(double amount){
+     
+   }
+   
+   //parameterised constructor
+   public SavingsAccount(double amount, double minBalance){
+     
+   }
+}
+
+
+3)Inheritance:
+---------------
+The process acquring the property from one class to another is called Inheritance.
+That is from parent class to child class , 
+here in the child class we need to use "extends" keyword followed by parent class name.
+'is a' relationship
+
+//parent class
+public class BankAccount{
+
+}
+
+//child class
+public class SavingsAccount extends BankAccount {
+
+}
+
+
+4)Encapsulation:
+-----------------
+The process of binding all data into a single unit is called Encapsulation.
+
+Rules to be followed during the process of encapsulation are:
+1) public class
+2) private data members
+3) default constructor
+4) public getter and setter methods
+
+ 
